@@ -1,0 +1,47 @@
+/* Define la clase 'custom-container' para aplicar estos estilos a un elemento específico */
+.custom-container {
+  font-family: 'Arial', sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.custom-container h1 {
+  color: #333;
+}
+
+.custom-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.custom-container li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+/* Estilos para las celdas específicas dentro de la clase 'custom-container' */
+.custom-container li span {
+  font-weight: bold;
+  color: #007bff; /* Puedes cambiar el color según tus preferencias */
+}
+
+/* Opcional: Estilos para hacer la lista más legible dentro de la clase 'custom-container' */
+.custom-container li:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.foto {
+  height: 40vmin;
+  pointer-events: none;
+  transition: transform 0.3s ease-in-out; /* Añade una transición suave */
+}
+  .foto {
+    height: 40vmin;
+    pointer-events: none;
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave */
+  }

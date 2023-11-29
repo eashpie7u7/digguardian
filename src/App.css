@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik:wght@500&display=swap');
 
-.App-logo {
+.logo {
   height: 40vmin;
   pointer-events: none;
+  transition: transform 0.3s ease-in-out; /* Añade una transición suave */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo:hover {
+  transform: scale(1.7); /* Escala la imagen al pasar el ratón para un efecto de aumento */
 }
 
+
+.titulo {
+  text-align: center; 
+  font-family: 'Rubik', sans-serif;
+  font-size: 35px;
+  transition: color 0.3s ease-in-out; /* Añade una transición suave para el cambio de color */
+}
+
+.titulo:hover {
+  color: #ff7f50; /* Cambia el color al pasar el ratón */
+  font-size: 50px;
+}
+
+.texto {
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  transition: margin 0.3s ease-in-out; /* Añade una transición suave para los márgenes */
+}
+
+.texto:hover {
+  margin-left: 250px; /* Ajusta el margen izquierdo al pasar el ratón */
+  margin-right: 250px; /* Ajusta el margen derecho al pasar el ratón */
+}
+
+/* Agrega una animación de desvanecimiento al componente App-header */
 .App-header {
-  background-color: #282c34;
+  background-color: #758bfd;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards; /* Agrega una animación de desvanecimiento */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+/* Define la animación de desvanecimiento */
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
   }
 }

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik:wght@500&display=swap');
+
+.text {
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+  }
+  .foto {
+    height: 40vmin;
+    pointer-events: none;
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave */
+  }
+  .titulo {
+    text-align: center; 
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    transition: color 0.3s ease-in-out; /* Añade una transición suave para el cambio de color */
+  }
+  
