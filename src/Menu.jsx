@@ -41,17 +41,17 @@ const Menu = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/objetivos">
+              <NavLink to="/digguardian/objetivos">
                 <i className="fas fa-user"></i> Objetivos
               </NavLink>
             </li>
             <li>
-              <NavLink to="/mediciones">
+              <NavLink to="/digguardian/mediciones">
                 <i className="fas fa-clock"></i> Mediciones
               </NavLink>
             </li>
             <li>
-              <NavLink to="/acerca">
+              <NavLink to="/digguardian/acerca">
                 <i className="fas fa-briefcase"></i> Acerca de
               </NavLink>
             </li>
