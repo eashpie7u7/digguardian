@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/digguardian/static/css/main.3fe7d27b.css",
+    "main.js": "/digguardian/static/js/main.d11b0438.js",
+    "static/js/787.65388472.chunk.js": "/digguardian/static/js/787.65388472.chunk.js",
+    "static/media/triptico.png": "/digguardian/static/media/triptico.1420ed8f54d4e2f916f1.png",
+    "static/media/robot.png": "/digguardian/static/media/robot.f71ab8734a62cc189994.png",
+    "static/media/arriba.png": "/digguardian/static/media/arriba.67bf4e0a20e20acfa400.png",
+    "static/media/segundo.png": "/digguardian/static/media/segundo.350a482592b4012d57cf.png",
+    "index.html": "/digguardian/index.html",
+    "main.3fe7d27b.css.map": "/digguardian/static/css/main.3fe7d27b.css.map",
+    "main.d11b0438.js.map": "/digguardian/static/js/main.d11b0438.js.map",
+    "787.65388472.chunk.js.map": "/digguardian/static/js/787.65388472.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fe7d27b.css",
+    "static/js/main.d11b0438.js"
+  ]
+}
