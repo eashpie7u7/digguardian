@@ -10,19 +10,14 @@ import './App.css';
 
 function App() {
   return (
-
-   
       <div>
          <Router>
         <Navbar />
         <Routes>
-          
-            
-            
-            <Route path="/home" element={<Home />} />
-            <Route path="/acerca" element={<Acerca />} />
-            <Route path="/objetivos" element={<Objetivos />} />
-            <Route path="/mediciones" element={<CarritoList />} />
+            <Route path="/digguardian/" element={<Home />} />
+            <Route path="/digguardian/acerca" element={<Acerca />} />
+            <Route path="/digguardian/objetivos" element={<Objetivos />} />
+            <Route path="/digguardian/mediciones" element={<CarritoList />} />
           
         </Routes>
 
